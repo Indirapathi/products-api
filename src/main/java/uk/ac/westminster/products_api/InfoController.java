@@ -10,7 +10,7 @@ public class InfoController {
 
     @GetMapping("/info")
     public String info(){
-        return "The name of the application is products-api";
+        return "This is an api for product";
     }
 
 }
